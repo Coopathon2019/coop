@@ -1,0 +1,24 @@
+[26-Jun-2019 03:38:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_type() on boolean in /home1/chientai/public_html/coop/wp-content/plugins/woocommerce-admin/includes/data-stores/class-wc-admin-reports-coupons-data-store.php:362
+Stack trace:
+#0 /home1/chientai/public_html/coop/wp-content/plugins/woocommerce-admin/includes/class-wc-admin-reports-sync.php(435): WC_Admin_Reports_Coupons_Data_Store::sync_order_coupons(87)
+#1 /home1/chientai/public_html/coop/wp-includes/class-wp-hook.php(286): WC_Admin_Reports_Sync::orders_lookup_import_order(87)
+#2 /home1/chientai/public_html/coop/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home1/chientai/public_html/coop/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#4 /home1/chientai/public_html/coop/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Action.php(22): do_action_ref_array('wc-admin_import...', Array)
+#5 /home1/chientai/public_html/coop/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/class in /home1/chientai/public_html/coop/wp-content/plugins/woocommerce-admin/includes/data-stores/class-wc-admin-reports-coupons-data-store.php on line 362
+[26-Jun-2019 03:40:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_type() on boolean in /home1/chientai/public_html/coop/wp-content/plugins/woocommerce-admin/includes/data-stores/class-wc-admin-reports-coupons-data-store.php:362
+Stack trace:
+#0 /home1/chientai/public_html/coop/wp-content/plugins/woocommerce-admin/includes/class-wc-admin-reports-sync.php(435): WC_Admin_Reports_Coupons_Data_Store::sync_order_coupons(364)
+#1 /home1/chientai/public_html/coop/wp-includes/class-wp-hook.php(286): WC_Admin_Reports_Sync::orders_lookup_import_order(364)
+#2 /home1/chientai/public_html/coop/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home1/chientai/public_html/coop/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#4 /home1/chientai/public_html/coop/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Action.php(22): do_action_ref_array('wc-admin_import...', Array)
+#5 /home1/chientai/public_html/coop/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/cla in /home1/chientai/public_html/coop/wp-content/plugins/woocommerce-admin/includes/data-stores/class-wc-admin-reports-coupons-data-store.php on line 362
+[26-Jun-2019 03:42:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_type() on boolean in /home1/chientai/public_html/coop/wp-content/plugins/woocommerce-admin/includes/data-stores/class-wc-admin-reports-coupons-data-store.php:362
+Stack trace:
+#0 /home1/chientai/public_html/coop/wp-content/plugins/woocommerce-admin/includes/class-wc-admin-reports-sync.php(435): WC_Admin_Reports_Coupons_Data_Store::sync_order_coupons(465)
+#1 /home1/chientai/public_html/coop/wp-includes/class-wp-hook.php(286): WC_Admin_Reports_Sync::orders_lookup_import_order(465)
+#2 /home1/chientai/public_html/coop/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /home1/chientai/public_html/coop/wp-includes/plugin.php(531): WP_Hook->do_action(Array)
+#4 /home1/chientai/public_html/coop/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/classes/ActionScheduler_Action.php(22): do_action_ref_array('wc-admin_import...', Array)
+#5 /home1/chientai/public_html/coop/wp-content/plugins/woocommerce/includes/libraries/action-scheduler/cla in /home1/chientai/public_html/coop/wp-content/plugins/woocommerce-admin/includes/data-stores/class-wc-admin-reports-coupons-data-store.php on line 362
